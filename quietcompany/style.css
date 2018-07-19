@@ -121,28 +121,37 @@ body,
 	Quiet Company
 -----------------------------------------------------------------*/
 
+.dark .heading-block:not(.not-dark) h1, .dark .heading-block:not(.not-dark) h2, .dark .heading-block:not(.not-dark) h3, .dark .heading-block:not(.not-dark) h4, .dark .emphasis-title:not(.not-dark) h1, .dark .emphasis-title:not(.not-dark) h2
+{
+	color: #212529; 
+
+}
+
 h1.quiet {
 	font-size: 25px;
-}
+	margin-top:15px;
+}	
 
 h4.quiet {
 	font-size: 45px;
 }
 
 div.quiet {
-	/* color: #212529; */
+	 color: #212529; 
 	font-size: 25px;
-
 }
-
-/* 
-#content {
-	/* background-color: red */
 
 section.quiet {
 	color: #FFF; 
 }
 
+div.quietContact {
+	color: #212529; 
+}
+
+h3.quietContact {
+	color: #212529; 
+}
 
 
 
