@@ -123,7 +123,7 @@ body,
 
 .dark .heading-block:not(.not-dark) h1, .dark .heading-block:not(.not-dark) h2, .dark .heading-block:not(.not-dark) h3, .dark .heading-block:not(.not-dark) h4, .dark .emphasis-title:not(.not-dark) h1, .dark .emphasis-title:not(.not-dark) h2
 {
-	color: #212529; 
+	color: #FFF; 
 
 }
 
@@ -137,7 +137,7 @@ h4.quiet {
 }
 
 div.quiet {
-	 color: #212529; 
+	 color: #FFF; 
 	font-size: 25px;
 }
 
@@ -3551,7 +3551,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	position: relative;
 	overflow: hidden;
 	/* background-color:#FFF; */
-	background-color: #484846;
+	background-color: #0a0a0c;
 
 }
 
