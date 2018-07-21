@@ -231,7 +231,7 @@ h6 {
 	color: #444;
 	font-weight: 600;
 	line-height: 1.5;
-	margin: 0 0 30px 0;
+	margin: 0 0 10px 0;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -4497,7 +4497,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay {
 	background-color: #F5F5F5;
 	width: 40px !important;
 	height: 40px !important;
-	margin: -28px 0 0 -44px;
+	margin: -28px 0 0 -20px;
 	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
@@ -11361,7 +11361,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .divider {
 	position: relative;
 	overflow: hidden;
-	margin: 35px 0;
+	margin: -8px 0;
 	color: #E5E5E5;
 	width: 100%;
 }
