@@ -121,14 +121,55 @@ body,
 	Quiet Company
 -----------------------------------------------------------------*/
 
+
+.containerQuiet {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centerSmallText {
+	position: absolute;
+  top: 70%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.centerMediumText {
+	position: absolute;
+  top: 70%;
+  left: 45%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.centerLongText {
+	position: absolute;
+	top: 70%;
+	left: 55%;
+
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+
+
 h1.quiet {
-	font-size: 25px;
+	font-size: 100px;
 }
 
 div.quiet {
 	color: #212529;
 	font-size: 25px;
 }
+
+.tests {
+	color: #212529;
+	font-size: 100px;
+}
+
 
 section.quiet {
 	background-color: blue
@@ -142,12 +183,18 @@ h4.quiet {
 
 
 	padding-bottom: 0px;
+	letter-spacing: 3px;
 
 /* .page-section {
 	padding-bottom: 10px;
 } */
 
 }
+
+#section-contact {
+	letter-spacing: 3px;
+}
+
 
 
 /* ----------------------------------------------------------------
@@ -2453,7 +2500,7 @@ body:not(.device-touch) #page-menu nav li a {
 .one-page-arrow {
 	position: absolute;
 	z-index: 3;
-	bottom: 20px;
+	bottom: -165px;
 	left: 50%;
 	margin-left: -16px;
 	width: 32px;
