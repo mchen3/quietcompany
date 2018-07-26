@@ -2504,7 +2504,7 @@ body:not(.device-touch) #page-menu nav li a {
 .one-page-arrow {
 	position: absolute;
 	z-index: 3;
-	bottom: -165px;
+	bottom: 50px;
 	left: 50%;
 	margin-left: -16px;
 	width: 32px;
@@ -3600,7 +3600,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 0px 0;
+	padding: 45px 0;
 }
 
 #content .container { position: relative; }
