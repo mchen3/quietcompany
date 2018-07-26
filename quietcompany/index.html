@@ -7,12 +7,17 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|Playfair+Display:400,400italic,700,700italic,900" rel="stylesheet" type="text/css" />
+	<!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|Playfair+Display:400,400italic,700,700italic,900" rel="stylesheet" type="text/css" />
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="../style.css" type="text/css" />
+	<link rel="stylesheet" href="../quiet.css" type="text/css" />
+
 	<link rel="stylesheet" href="../css/swiper.css" type="text/css" />
 
 	<!-- One Page Module Specific Stylesheet -->
@@ -69,11 +74,16 @@
 		body.device-xl .onepage-outdoor-negetive,
 		body.device-lg .onepage-outdoor-negetive { margin-top: -300px; }
 
-		@media (min-width: 768px) {
+		/*
+		Quiet top
+		Use this to style the title text in slider ie title text
+		Use quiet.css to size for different devices.
+		*/
+		/* @media (min-width: 768px) {
 			#slider h2 { 
-				font-size: 80px; 
-				letter-spacing: 5px;
-
+				font-size: 100px; 
+				letter-spacing: 3px;
+				 text-align: left;
 				}
 
 			.text-overlay-title h3 {
@@ -81,7 +91,21 @@
 				letter-spacing: 1px;
 				font-weight: 600;
 			}
-		}
+		} */
+
+		/* Contact */
+		
+		/* @media (max-width: 575px) {
+			#section-contact h2 { 
+				font-size: 17px; 
+				letter-spacing: 3px;
+				 text-align: left;
+				}				
+		} */
+
+		
+
+
 	</style>
 
 </head>
@@ -148,41 +172,22 @@
 					<div class="swiper-slide dark" style="background-image: url('images/page/outdoor-2.jpg'); background-position: center bottom; height: 900px;"></div>
 					<div class="swiper-slide dark" style="background-image: url('images/page/outdoor-3.jpg'); background-position: center bottom; height: 900px;"></div> -->
 				</div>
-
-
-			
 			</div>
 
-			<div class="vertical-middle container center ignore-header clearfix" style="z-index: 1;">
-				<!-- <h2 class="t700 nobottommargin"  style="font-family: 'Playfair Display'; margin-left: -370px">TONY CHEN </h2> -->
-
-
-			<div class="w3-container" align="left" style="margin-bottom: 70px">
-				<h1 class="quiet "  style="font-family: 'Open Sans', sans-serif;
-				 margin-left: 60px; margin-top: 300px; ">TONY CHEN </h2>
-				<h1 class="quiet "  style="font-family: 'Open Sans', sans-serif; 
-				margin-left: 60px; margin-top: -40px">EDITOR </h2>
-			</div>
+			<div id="quietTitle" class="vertical-middle container">
+				<h2 class="t700 nobottommargin" style="font-family:'Roboto', sans-serif ">Tony Chen. Editor </h2>
 				
+				<!-- <h2 class="t700 nobottommargin" style="font-family:'Roboto', sans-serif">Editor </h2> -->
+			</div>
 
-				<!-- <h2 class="t700 nobottommargin" style="margin-left: -240px">Tony Chen. Editor.</h2> -->
-				<!-- <h2 class="t700 nobottommargin" style="margin-left: -240px">Tony Chen. Editor.</h2> -->
+	
 
-
-				<!-- <p class="ls1 t300">Adventure is worthwhile</p> -->
-				<!-- <a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" class="play-icon" data-lightbox="iframe"><i class="icon-googleplay"></i></a> -->
-		
-
-
-				<!-- <div class="video-wrap">
-					<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-				</div> -->
-				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
+				<a href="#" data-scrollto="#section-about" 
+				data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark">
+				<i class="icon-angle-down infinite animated fadeInDown"></i></a>
 
 			</div>
 
-			<!-- <a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a> -->
 
 
 
@@ -194,90 +199,11 @@
 
 			<div class="content-wrap">
 
-				<!-- <div class="onepage-outdoor-negetive">
-					<div class="container center clearfix">
-						<div class="heading-block divcenter nobottomborder" style="max-width: 600px">
-							<h2 class="nott ls0 t500">Explore the World</h2>
-							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam explicabo impedit dolorum illo dolorem natus ratione alias id nisi expedita officiis quis, nobis fugit est, reiciendis recusandae. Delectus, magni, fugit!</span>
-						</div>
-						<div class="row clearfix">
-							<div class="divcenter row" style="max-width: 1000px">
-								<div class="col-sm-4 bottommargin-sm clearfix">
-
-									<div class="team">
-										<div class="team-image">
-											<img src="images/outdoor/1.jpg" alt="John Doe">
-										</div>
-										<div class="overlay">
-											<div class="text-overlay">
-												<div class="text-overlay-title">
-													<h3 style="font-family: 'Playfair Display';">Born Fire</h3>
-												</div>
-												<div class="text-overlay-meta">
-													<span>Ukraine</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="col-sm-4 bottommargin-sm clearfix">
-
-									<div class="team">
-										<div class="team-image">
-											<img src="images/outdoor/2.jpg" alt="Josh Thompson">
-										</div>
-										<div class="overlay">
-											<div class="text-overlay">
-												<div class="text-overlay-title">
-													<h3 style="font-family: 'Playfair Display';">Mountain Climb</h3>
-												</div>
-												<div class="text-overlay-meta">
-													<span>Switzerland</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="col-sm-4 bottommargin-sm clearfix">
-
-									<div class="team">
-										<div class="team-image">
-											<img src="images/outdoor/3.jpg" alt="Mary Jane">
-										</div>
-										<div class="overlay">
-											<div class="text-overlay">
-												<div class="text-overlay-title">
-													<h3 style="font-family: 'Playfair Display';">Long Drive</h3>
-												</div>
-												<div class="text-overlay-meta">
-													<span>Mexico</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="col-12"><a href="#" class="dark">See More <i class="icon-caret-right" style="position: relative; margin-left: 3px; top: 2px;"></i></a></div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-
 				<div id="section-about" class="center page-section">
 
-					<div class="container clearfix" align="left" >
+					<div  id="section-about-title" class="container clearfix" align="left" >
 
-
-
-
-
-
-						<h2 align="center "class="divcenter bottommargin font-body" style="max-width: 700px; font-size: 40px;">Hi, I'm Tony Chen.  </h2>
+						<h2  align="center "class="divcenter bottommargin font-body">Hi, I'm Tony Chen.  </h2>
 
 						<p class="lead divcenter bottommargin" style="max-width: 800px;">   I'm an LA/NY based editor. I used to be an accountant and really didn't like my job. Problem was I didn't know what to do instead. </p>
 						<p class="lead divcenter bottommargin" style="max-width: 800px;">    I loved storytelling so I joined a film collective. At one of the socials I met an editor. I was curious about her career and ended up asking her questions for an hour. She told me she did ABC. 
@@ -403,7 +329,7 @@
 
 						<!-- Related Portfolio Items
 						============================================= -->
-						<h4 class="quiet" align="center" style="margin-top: 30px; font-size:40px">Portfolio</h4>
+						<h2 class="quiet" align="center" >Portfolio</h2>
 
 						<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget p-3" data-margin="20" data-nav="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-xl="3">
 
@@ -654,20 +580,18 @@
 
 							<div class="col-padding max-height" align="center">
 
-								<h3 class="font-body t400 ls1" style="font-size: 40px" >Contact</h3>
+								<h3 class="font-body t400 ls3" >Contact</h3>
 
-								<div style="font-size: 25px; line-height: 1.7;">
-									
-									<!-- <div class="clear topmargin"></div> -->
+								
+								<h2>
+										<strong>c:</strong> 917.558.6238
+								</h2>
 
-									<strong>c:</strong> 917.558.6238
-									
-								</div>
-
-
-								<div style="font-size: 25px; line-height: 1.7; margin-left:86px">
-										<strong> &nbsp; @:</strong> tony@quiet.company
-									</div>
+							<div id="section-contact-email">
+								<h2>
+									<strong>  @:</strong>	tony@quiet.company
+								</h2>
+							</div>
 	
 
 							</div>
@@ -677,6 +601,9 @@
 				</div>
 
 			</div>
+
+
+
 
 		</section><!-- #content end -->
 

@@ -157,7 +157,9 @@ body,
 
 
 h1.quiet {
-	font-size: 100px;
+	font-size: 50px;
+	 text-align: left;
+
 }
 
 div.quiet {
@@ -270,7 +272,9 @@ iframe { border: none !important; }
 
 
 h1,
-h2,
+h2 {
+	line-height: 1.05;
+}
 h3,
 h4,
 h5,
@@ -430,7 +434,7 @@ span.middot {
 
 .notopmargin { margin-top: 0 !important; }
 
-.nobottommargin { margin-bottom: 0 !important; }
+.nobottommargin { margin-bottom: 0px !important; }
 
 .header-stick { margin-top: -50px !important; }
 
@@ -452,7 +456,7 @@ span.middot {
 
 .noradius { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; -ms-border-radius: 0 !important; -o-border-radius: 0 !important; border-radius: 0 !important; }
 
-.col-padding { padding: 60px; }
+.col-padding { padding: 47px; }
 
 .nopadding { padding: 0 !important; }
 
@@ -3596,7 +3600,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 0px 0;
 }
 
 #content .container { position: relative; }

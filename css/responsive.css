@@ -1036,7 +1036,7 @@
 
 	h1 { font-size: 28px; }
 
-	h2 { font-size: 24px; }
+	h2 { font-size: 30px; }
 
 	h3 { font-size: 20px; }
 
@@ -1494,6 +1494,8 @@
 
 @media (max-width: 575px) {
 
+
+	
 	.container,
 	#header.full-header .container,
 	.container-fullwidth {
