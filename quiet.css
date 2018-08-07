@@ -1,5 +1,12 @@
 
 
+.si-linkedin:hover,
+.si-colored.si-linkedin { background-color: rgba(0,0,0,0) !important; }
+
+
+.si-vimeo:hover,
+.si-colored.si-vimeo { background-color: rgba(0,0,0,0) !important; }
+
 
 
 @media (min-width: 768px) {
@@ -98,6 +105,7 @@
 			font-size: 50px; 
 			letter-spacing: 3px;
 			 text-align: left;
+			 font-weight: 1000;
 	}			
 
 	#section-works h2 { 
@@ -123,9 +131,12 @@
 
 	#section-contact-email h2 { 
 		margin-left: -32px;  
-
 	}		
 
+
+	#section-about-title p {
+		/* font-weight: bold; */
+	}
 }
 
 
