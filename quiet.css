@@ -20,54 +20,26 @@ a.si-vimeo:hover {
 	color:#86B32D !important;
 }
 
+a.quiettabs:hover {
+	color: rgb(25,24,24) !important;
+}
+
 @media (min-width: 1200px) {
-
 .container {
-    max-width: 2000px;
+		max-width: 2000px;
 }
+		
 
+
+
+#about-container {
+	max-width: 1000px;
 }
-
-/* #header .container {
-	margin-left: 10px;
-} */
-
-/* #header.split-menu #primary-menu {
-	margin-left: !important;
-} */
-
-
-/* #quiet {
-	padding-left: 10px!important;
-	margin-left: 10px !important;
-	color:red !important;
-} */
-
-#primary-menu ul li a {
-	/* padding: 24px 22px;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 3px; */
-/* 
-	padding-left: 10px!important;
-	margin-left: 10px !important;
-	color:red !important; */
 }
 
 
-/* #header.split-menu #primary-menu > ul:last-child {
-	margin-right: -350px !important;
-	/* padding-right: 10px!important; 
-}
-*/
-
-
-
-
-#linkedin-logo {
-	/* padding-left: 10px!important; */
-	/* margin-left: 10px !important; */
-
+ .dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), .dark #header.sticky-header.transparent-header #header-wrap:not(.not-dark), .dark #header.transparent-header.floating-header .container, .dark #header.transparent-header.floating-header.sticky-header .container, #header.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), #header.dark.sticky-header.transparent-header #header-wrap:not(.not-dark), #header.dark.transparent-header.floating-header .container, #header.dark.transparent-header.floating-header.sticky-header .container, .dark .responsive-sticky-header #header-wrap, .responsive-sticky-header.dark #header-wrap {
+	background-color:rgb(25,24,24) !important;
 }
 
 #vimeo-logo {
