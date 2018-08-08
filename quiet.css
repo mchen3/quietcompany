@@ -9,16 +9,129 @@
 
 
 
+
+
+
+
+@media (max-width: 767px) {
+
+	#slider h2 { 
+		font-size: 55px; 
+		letter-spacing: 0px;
+		 text-align: left;
+		 margin-top: 154; 
+		 margin-left: 13px
+		}
+
+		#slider h1 { 
+			font-size: 71px; 
+			letter-spacing: 0px;
+			 text-align: left;
+			 margin-top: 11px; 
+			 margin-left: 11px
+			}
+	}
+
+
+
+
+
+	@media (max-width: 575px) {
+		#slider h2 { 
+			font-size: 30px; 
+			letter-spacing: 1px;
+			 text-align: left;
+			 margin-top: -54px;
+			 margin-left: 8px;
+
+			}	
+
+			#slider h1 { 
+				font-size: 42px; 
+				letter-spacing: 0px;
+				 text-align: left;
+				 margin-top: 7px; 
+				 margin-left: 8px
+				}
+	
+		#quietTitle { 
+			/* font-size: 25px; 
+			letter-spacing: 3px;
+			 text-align: left; */
+			 margin-left: -30px !important;
+			 margin-top: 30px !important;
+			}		
+	
+		/* Contact */
+		#section-contact h2 { 
+			font-size: 17px; 
+			letter-spacing: 3px;
+			 text-align: left;
+		}				
+	
+		#section-contact h3 { 
+			font-size: 30px; 
+			letter-spacing: 3px;
+		}		
+	
+		/* About  */
+		#section-about h2 { 
+				font-size: 50px; 
+				letter-spacing: 3px;
+				 text-align: left;
+				 font-weight: 1000;
+		}			
+	
+		#section-works h2 { 
+			font-size: 35px; 
+			letter-spacing: 2px;
+			margin-top: 44px; 
+			margin-bottom: 8px; 
+		}	
+	
+	
+		/* Contact */
+		#section-contact h2 { 
+			font-size: 23px; 
+			letter-spacing: 3px;
+			 text-align: left;
+			 /* padding-left: 30px; */
+		}				
+	
+		#section-contact h3 { 
+			font-size: 33px; 
+			letter-spacing: 3px;
+		}		
+	
+		#section-contact-email h2 { 
+			margin-left: -32px;  
+		}		
+	
+	
+		#section-about-title p {
+			/* font-weight: bold; */
+		}
+	}
+	
+
 @media (min-width: 768px) {
 
 	#slider h2 { 
-		font-size: 65px; 
+		font-size: 80px; 
 		letter-spacing: 0px;
 		 text-align: left;
-		 margin-top: 164px; 
+		 margin-top: 210px; 
 		 margin-left: 17px
-
 		}
+
+		#slider h1 { 
+			font-size: 103px; 
+			letter-spacing: 0px;
+			 text-align: left;
+			 margin-top: 11px; 
+			 margin-left: 17px
+			}
+	
 
 		#section-about-title h2 { 
 			font-size: 56px; 
@@ -33,11 +146,10 @@
 		}	
 
 	/* Contact */
-	#section-contact h2 { 
+	/* #section-contact h2 { 
 		font-size: 37px; 
 		letter-spacing: 3px;
 		 text-align: center;
-		 /* padding-left: 30px; */
 	}				
 
 	#section-contact h3 { 
@@ -49,20 +161,28 @@
 		 padding-left: 144px; 
 
 	}		
-	
-
+	 */
 
 }
 
 
 @media (min-width: 1024px) {
 	#slider h2 { 
-		font-size: 91px; 
+		font-size: 111px; 
 		letter-spacing: 3px;
 		 text-align: left;
-		 margin-top: 100px; 
+		 margin-top: 0px; 
 		 margin-left: 30px
 		}
+
+	#slider h1 { 
+			font-size: 150px; 
+			letter-spacing: 0px;
+			 text-align: left;
+			 margin-top: 20px; 
+			 margin-left: 25px
+			}
+	
 
 	#section-about-title h2 { 
 			font-size: 57px; 
@@ -71,80 +191,6 @@
 }
 
 
-
-@media (max-width: 575px) {
-	#slider h2 { 
-		font-size: 24px; 
-		letter-spacing: 1px;
-		 text-align: left;
-		 /* margin-top: -26px; */
-		}	
-
-	#quietTitle { 
-		/* font-size: 25px; 
-		letter-spacing: 3px;
-		 text-align: left; */
-		 margin-left: -30px !important;
-		 margin-top: 30px !important;
-		}		
-
-	/* Contact */
-	#section-contact h2 { 
-		font-size: 17px; 
-		letter-spacing: 3px;
-		 text-align: left;
-	}				
-
-	#section-contact h3 { 
-		font-size: 30px; 
-		letter-spacing: 3px;
-	}		
-
-	/* About  */
-	#section-about h2 { 
-			font-size: 50px; 
-			letter-spacing: 3px;
-			 text-align: left;
-			 font-weight: 1000;
-	}			
-
-	#section-works h2 { 
-		font-size: 35px; 
-		letter-spacing: 2px;
-		margin-top: 44px; 
-		margin-bottom: 8px; 
-	}	
-
-
-	/* Contact */
-	#section-contact h2 { 
-		font-size: 23px; 
-		letter-spacing: 3px;
-		 text-align: center;
-		 /* padding-left: 30px; */
-	}				
-
-	#section-contact h3 { 
-		font-size: 33px; 
-		letter-spacing: 3px;
-	}		
-
-	#section-contact-email h2 { 
-		margin-left: -32px;  
-	}		
-
-
-	#section-about-title p {
-		/* font-weight: bold; */
-	}
-}
-
-
-
-
-
-	
-	
 	
 	
 }
