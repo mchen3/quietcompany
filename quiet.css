@@ -1,16 +1,89 @@
 
 
 .si-linkedin:hover,
-.si-colored.si-linkedin { background-color: rgba(0,0,0,0) !important; }
+.si-colored.si-linkedin { 
+	background-color: rgba(0,0,0,0) !important; 
+}
 
 
 .si-vimeo:hover,
-.si-colored.si-vimeo { background-color: rgba(0,0,0,0) !important; }
+.si-colored.si-vimeo { 
+	background-color: rgba(0,0,0,0) !important; 
+}
+
+a.si-linkedin:hover {
+	
+	color:#4875B4 !important;
+}
+
+a.si-vimeo:hover {
+	color:#86B32D !important;
+}
+
+@media (min-width: 1200px) {
+
+.container {
+    max-width: 2000px;
+}
+
+}
+
+/* #header .container {
+	margin-left: 10px;
+} */
+
+/* #header.split-menu #primary-menu {
+	margin-left: !important;
+} */
+
+
+/* #quiet {
+	padding-left: 10px!important;
+	margin-left: 10px !important;
+	color:red !important;
+} */
+
+#primary-menu ul li a {
+	/* padding: 24px 22px;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 3px; */
+/* 
+	padding-left: 10px!important;
+	margin-left: 10px !important;
+	color:red !important; */
+}
+
+
+/* #header.split-menu #primary-menu > ul:last-child {
+	margin-right: -350px !important;
+	/* padding-right: 10px!important; 
+}
+*/
 
 
 
 
+#linkedin-logo {
+	/* padding-left: 10px!important; */
+	/* margin-left: 10px !important; */
 
+}
+
+#vimeo-logo {
+	/* padding-left: 10px!important; */
+	margin-left: -30px !important;
+}
+
+
+#contact-words h1 {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+
+#contact-number {
+	font-family: 'Roboto', sans-serif !important;
+}
 
 
 @media (max-width: 767px) {
@@ -30,6 +103,14 @@
 			 margin-top: 11px; 
 			 margin-left: 11px
 			}
+
+		#section-works h2 { 
+			font-family: 'Raleway', sans-serif !important;
+		}	
+
+		/* #quiet-contact  { 
+			font-family: 'Raleway', sans-serif !important;
+		} */
 	}
 
 
@@ -67,12 +148,19 @@
 			font-size: 17px; 
 			letter-spacing: 3px;
 			 text-align: left;
+			 /* font-family: 'Raleway', sans-serif !important; */
+
 		}				
-	
+
 		#section-contact h3 { 
 			font-size: 30px; 
 			letter-spacing: 3px;
+			/* font-family: 'Raleway', sans-serif !important; */
 		}		
+
+		/* #quiet-contact  { 
+			font-family: 'Raleway', sans-serif !important;
+		} */
 	
 		/* About  */
 		#section-about h2 { 
@@ -86,31 +174,12 @@
 			font-size: 35px; 
 			letter-spacing: 2px;
 			margin-top: 44px; 
-			margin-bottom: 8px; 
+			margin-bottom: 8px;
+			font-family: 'Raleway', sans-serif !important;
+ 
 		}	
 	
 	
-		/* Contact */
-		#section-contact h2 { 
-			font-size: 23px; 
-			letter-spacing: 3px;
-			 text-align: left;
-			 /* padding-left: 30px; */
-		}				
-	
-		#section-contact h3 { 
-			font-size: 33px; 
-			letter-spacing: 3px;
-		}		
-	
-		#section-contact-email h2 { 
-			margin-left: -32px;  
-		}		
-	
-	
-		#section-about-title p {
-			/* font-weight: bold; */
-		}
 	}
 	
 
@@ -143,25 +212,14 @@
 			letter-spacing: 5px;
 			margin-top: 65px; 
 			margin-bottom: 65px; 
+			font-family: 'Raleway', sans-serif !important;
 		}	
 
-	/* Contact */
-	/* #section-contact h2 { 
-		font-size: 37px; 
-		letter-spacing: 3px;
-		 text-align: center;
-	}				
+		
+		#section-works h2 { 
+			font-family: 'Raleway', sans-serif !important;
+		}	
 
-	#section-contact h3 { 
-		font-size: 47px; 
-		letter-spacing: 3px;
-	}		
-
-	#section-contact-email h2 { 
-		 padding-left: 144px; 
-
-	}		
-	 */
 
 }
 
@@ -188,6 +246,24 @@
 			font-size: 57px; 
 			letter-spacing: 3px;
 	}	
+	
+
+	#contact-words  h1 { 
+		font-size: 26px; 
+	} 
+
+	#contact-words  h2 { 
+		font-size: 20px; 
+	} 
+	#contact-number h2 { 
+		font-size: 20px; 
+	} 
+
+
+
+
+	
+
 }
 
 
