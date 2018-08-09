@@ -22,7 +22,8 @@ a.si-vimeo:hover {
 
 a.quiettabs:hover {
 	/* color: rgb(25,24,24) !important; */
-	color:rgb(64,64,64)!important;
+	/* color:rgb(64,64,64)!important; */
+	color: cyan !important;
 
 }
 
