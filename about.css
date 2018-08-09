@@ -41,13 +41,20 @@
 	color: white;
 	/* margin-left: 150px;
 	margin-right: 150px; */
-
+ /* font-family: Arial, Helvetica, sans-serif; */
+ 
 }
 
-h3 {
+
+/* #about-container {
+	margin-bottom: 20px;
+
+} */
+
+/* h3 {
 	color: white;
 
-}
+} */
 
 hr {
   border: 0;
@@ -58,13 +65,126 @@ hr {
   height: 1px;
 }
 
-.about {
-	font-size:20px;
-}
 
 .aboutTitle {
 	font-size:40px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: white;
+
 }
+
+.aboutDescription {
+	font-size:25px;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Raleway', sans-serif;
+	/* word-spacing: 3px; */
+	letter-spacing: 2px;
+	line-height: 45px;
+	font-weight: 400; 
+
+	/* font-family: Arial, Helvetica, sans-serif */
+
+	/* font-family: "Heebo", "Helvetica Neue", Helvetica, sans-serif;
+	word-spacing: 7px;
+	letter-spacing: 2px;
+	line-height: 45px;
+	font-weight: 400; */
+}
+
+#resume h3 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	/* word-spacing: 2px; */
+	letter-spacing: 1px;
+}
+
+#resume h4 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	/* word-spacing: 2px; */
+	letter-spacing: 1px;
+	font-size: 20px;
+
+}
+
+.year {
+	color: cyan;
+}
+
+p {
+	font-size: 20px;
+}
+
+hr {
+	/* display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid red;
+	margin: 1em 0;
+	padding: 0;  */
+
+	border-color: cyan;
+  background-color: cyan; 
+  color: cyan;
+}
+
+
+#portfolio {
+	/* padding-top: -10px; */
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#portfolio  h3{
+	letter-spacing: 2px;
+
+}
+
+#portfolio h4 {
+	margin-top: -15px;
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+
+#footer-left h3 {
+	font-size: 54px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding-left: 44px;
+	padding-top: 32px;
+	letter-spacing: 3px;
+}
+
+
+#footer-right h3 {
+	font-size: 100px !important;
+	font-family: 'Raleway', sans-serif !important;
+	color: cyan;
+}
+
+#footer .footer-widgets-wrap {
+	position: relative;
+	padding: 150px 0;
+}
+
+.box {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+
+
+/* #portfolio-container {
+	margin-top: 5px;
+}
+
+#portfolio-word {
+	margin-top: 5px;
+} */
+
+.row-bottom-margin { margin-bottom:20px; }
+
 
 /* hr {
   margin-top: 1rem;
@@ -72,3 +192,26 @@ hr {
   border: 0;
   border-top: 1px solid white;
 } */
+
+
+#footer.dark, .dark #footer {
+	background-color: rgba(0,0,0,0.5) !important;
+	/* color: #6d2121; */
+	/* border-top-color: rgba(0,0,0,0.2); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

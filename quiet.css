@@ -21,7 +21,9 @@ a.si-vimeo:hover {
 }
 
 a.quiettabs:hover {
-	color: rgb(25,24,24) !important;
+	/* color: rgb(25,24,24) !important; */
+	color:rgb(64,64,64)!important;
+
 }
 
 @media (min-width: 1200px) {
@@ -33,7 +35,7 @@ a.quiettabs:hover {
 
 
 #about-container {
-	max-width: 1000px;
+	max-width: 1300px;
 }
 }
 
