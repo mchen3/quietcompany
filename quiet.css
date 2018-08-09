@@ -245,3 +245,83 @@ a.quiettabs:hover {
 	
 }
 
+
+/*
+media query size changes for homepage
+@media (min-width: 1801px) and (max-width: 2300px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {	
+		width: 2000px !important;
+		height: 1042px !important;
+}
+}
+
+
+@media (min-width: 1601px) and (max-width: 1800px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {	
+		width: 1000px !important;
+		height: 900px !important;
+}
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {	
+		width: 1600px !important;
+		height: 1200px !important;
+}
+}
+
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {	
+		width: 1200px !important;
+		height: 857px !important;
+}
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {	
+		width: 1200px !important;
+		height: 857px !important;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {
+			
+		width: 1023px !important;
+		height: 730px !important;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {
+			
+		width: 991px !important;
+		height: 707px !important;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.swiper_wrapper:not(.force-full-screen),
+	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { 
+		width: 420px !important;
+		height: 300px !important; }
+}
+	
+
+
+
+@media (max-width: 575px) {
+	.swiper_wrapper:not(.force-full-screen),
+	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 180px !important; }
+}
+	
+
+
+*/
+
