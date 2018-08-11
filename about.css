@@ -156,12 +156,22 @@ hr {
 	letter-spacing: 3px;
 }
 
-
 #footer-right h3 {
-	font-size: 100px !important;
+	/* font-size: 100px !important; */
+	font-size: 50px !important;
 	font-family: 'Raleway', sans-serif !important;
 	color: cyan;
+	padding-top: 32px !important;
 }
+
+#footer-right:hover h3{
+	color: gray !important;
+}
+
+.portolio-link:hover h4 {
+	color: gray !important;
+}
+
 
 #footer .footer-widgets-wrap {
 	position: relative;
@@ -200,9 +210,14 @@ hr {
 	/* border-top-color: rgba(0,0,0,0.2); */
 }
 
+#footer .footer-widgets-wrap {
+	/* position: relative; */
+	padding: 70px 0;
+}
 
-
-
+#footer-contact {
+	font-size: 20px;
+}
 
 
 
