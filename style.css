@@ -94,7 +94,7 @@
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
 	.container { max-width: 540px; }
 }
 
@@ -108,7 +108,7 @@
 
 @media (min-width: 1200px) {
 	.container { max-width: 1170px; }
-}
+} */
 
 
 body,
