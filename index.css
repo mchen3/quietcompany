@@ -23,8 +23,14 @@ a.quiettabs:hover {
 	/* color: rgb(25,24,24) !important; */
 	/* color:rgb(64,64,64)!important; */
 	color: cyan !important;
-
 }
+
+#gotoTop:hover {
+	 background-color: cyan; 
+	}
+
+
+
 
 @media (min-width: 1200px) {
 .container {
@@ -288,18 +294,25 @@ a.quiettabs:hover {
 	 } */
 	
 
-	 element.style {
+	 /* element.style {
     background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     /* height: 666px;
     width: 414px; */
-   }
+   /* } */
 	
 	}
 		
 
+/*  Set right colors for home page   */
+.owl-carousel .owl-dots .owl-dot {
+    background-color: cyan;
+}
 
+#section-contact h2 {
+	color: white;
+}
 
 	
 
