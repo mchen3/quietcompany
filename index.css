@@ -60,6 +60,11 @@ a.quiettabs:hover {
 }
 
 
+
+
+/* media query size changes for homepage */
+
+
 @media (max-width: 767px) {
 
 	#slider h2 { 
@@ -188,12 +193,9 @@ a.quiettabs:hover {
 			margin-bottom: 65px; 
 			font-family: 'Raleway', sans-serif !important;
 		}	
-
-		
 		#section-works h2 { 
 			font-family: 'Raleway', sans-serif !important;
 		}	
-
 
 }
 
@@ -233,18 +235,97 @@ a.quiettabs:hover {
 		font-size: 20px; 
 	} 
 
-
+	
 
 
 	
-
+	  style {
+    /* background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
+    background-size: cover;
+    background-position: center center; */
+    /* height: 666px;
+    width: 414px; */
+	 }
+	 
 }
 
+/* background-image: url('./quietcompany/images/page/tony-5.jpg'); */
+
+
+	@media (min-width: 576px) and (max-width: 767px) {
+		.swiper_wrapper:not(.force-full-screen),
+		.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { 
+			width: 420px !important;
+			height: 300px !important; }
+	}
+		
+	
+	
+	
+	@media (max-width: 575px) {
+		/* .swiper_wrapper:not(.force-full-screen),
+		.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 180px !important; }
+	
+	 */
+	
+	 /* .full-screen.force-full-screen.dark.section.nopadding.nomargin.noborder.ohidden {
+
+			width: 375px !important;
+
+	}
+	 */
+
+	 
+/* 	 
+	 .swiper_wrapper:not(.force-full-screen),
+		.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { 
+			height: 780px !important; }
+	 */
+	
+	 /* #background-image {
+		 width: 320px !important;
+		 height: 568px !important;
+	 } */
+	
+
+	 element.style {
+    background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    /* height: 666px;
+    width: 414px; */
+   }
+	
+	}
+		
+
+
 
 	
+
+
+/* Set specific size only for ipad */
+@media (min-width: 1024px) and (max-width: 1024px)  {
 	
+.full-screen.force-full-screen.dark.section.nopadding.nomargin.noborder.ohidden {
+	background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
+}
 }
 
+@media (min-width: 768px) and (max-width: 768px) {
+	.full-screen.force-full-screen.dark.section.nopadding.nomargin.noborder.ohidden {
+		background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
+	}
+}
+
+/* Set specific size only for phones */
+@media (max-width: 575px) {
+	.full-screen.force-full-screen.dark.section.nopadding.nomargin.noborder.ohidden {
+		background-image: url(./quietcompany/images/page/tony-iphone.jpg) !important;
+	}
+}
+	
+	
 
 /*
 media query size changes for homepage
