@@ -66,11 +66,135 @@ a.quiettabs:hover {
 }
 
 
+/* Background header white */
+
+@media (min-width: 10px) {
+	#header-wrap {
+		background-color:white !important;
+	}
+
+	.dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), .dark #header.sticky-header.transparent-header #header-wrap:not(.not-dark), .dark #header.transparent-header.floating-header .container, .dark #header.transparent-header.floating-header.sticky-header .container, #header.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), #header.dark.sticky-header.transparent-header #header-wrap:not(.not-dark), #header.dark.transparent-header.floating-header .container, #header.dark.transparent-header.floating-header.sticky-header .container, .dark .responsive-sticky-header #header-wrap, .responsive-sticky-header.dark #header-wrap {
+    background-color: white !important;
+}
+}
+
+.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a, .dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li > a, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li > a, .overlay-menu #primary-menu.dark > ul > li > a, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > #overlay-menu-close, .overlay-menu #primary-menu.dark > #overlay-menu-close, .dark #header-wrap:not(.not-dark) #top-search a, .dark #header-wrap:not(.not-dark) #top-cart a, .dark #header-wrap:not(.not-dark) #side-panel-trigger a, .dark #header-wrap:not(.not-dark) #top-account a, .dark #top-cart .top-cart-item-desc a, body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a, .dark #header-wrap:not(.not-dark) #top-search a:hover, .dark #header-wrap:not(.not-dark) #top-cart a:hover, .dark #header-wrap:not(.not-dark) #side-panel-trigger a:hover, .dark #header-wrap:not(.not-dark) #top-account a:hover, .dark #header-wrap:not(.not-dark) #top-search form input {
+	color: black !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+	
+.dark, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+	color: black;
+}
+
+.dark h1 {
+	color: white;
+
+}
+
+/* Make header on top white, non-transparent */
+
+#header.split-menu #primary-menu {
+	background-color: white;
+	width: 100%;
+	height: 226px;
+}
+
+/* Change lineked and vimeo to right color */
+
+.dark .si-light {
+	/* background-color: rgba(255,255,255,0.1); */
+	color: #444 !important;
+	/* border-color: transparent; */
+}
+
+/*  Centered the tabs */
+.container {
+  position: relative;
+}
+
+.container ul {
+  position: absolute;
+  left: 50%;
+	transform: translatex(-50%);
+	/* color: red; */
+	background-color: white;
+	/* width: 100%; */
+}
+
+/* Increase font for tabs */
+#primary-menu ul li a {
+	/* padding: 24px 22px;
+	font-weight: 400;
+	letter-spacing: 3px; */
+	font-size: 15px !important;
+}
+
+/* Increase top padding for protfolio section  */
+.notoppadding {
+	padding-top: 65px !important;
+}
+
+.dark #copyrights {
+	background-color: white !important;
+	color:black !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1) !important;
+}
+
+.footer-edit {
+	color: #a5a2a2;
+}
+
+
+/* Resume */
+/* table { 
+	display: table;
+	border-collapse: separate;
+	border-spacing: 50px;
+	border-color: gray;
+	margin: 0px auto;
+} */
+	/* width: 50%; */
+
+	table {
+    table-layout:fixed;
+}
+
+
+table { 
+
+	padding-top:30px !important;
+
+	display: table;
+	border-collapse: separate;
+	border-spacing: 5px;
+	/* border-color: gray; */
+	margin: 0px auto;
+}
+
+
+table td {
+    width: 177 px;
+    overflow: hidden;
+		text-overflow: ellipsis;
+			/* border-spacing: 50px; */
+}
+
+th, td {
+	padding: 15px;
+}
+
+
+
+
+
+tr:nth-child(even) {background: #ececec}
+
+
+
 
 
 /* media query size changes for homepage */
-
-
 @media (max-width: 767px) {
 
 	#slider h2 { 
@@ -196,7 +320,7 @@ a.quiettabs:hover {
 			font-size: 47px; 
 			letter-spacing: 5px;
 			margin-top: 65px; 
-			margin-bottom: 65px; 
+			margin-bottom: 20px; 
 			font-family: 'Raleway', sans-serif !important;
 		}	
 		#section-works h2 { 
@@ -254,6 +378,11 @@ a.quiettabs:hover {
 	 }
 	 
 }
+
+
+
+
+
 
 /* background-image: url('./quietcompany/images/page/tony-5.jpg'); */
 

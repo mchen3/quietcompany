@@ -55,7 +55,7 @@
 	/* margin-left: 150px;
 	margin-right: 150px; */
  /* font-family: Arial, Helvetica, sans-serif; */
- 
+ /* height: 100px; */
 }
 
 
@@ -103,7 +103,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	/* word-spacing: 3px; */
 	letter-spacing: 2px;
-	line-height: 45px;
+	line-height: 30px;
 	font-weight: 400; 
 
 	/* font-family: Arial, Helvetica, sans-serif */
@@ -231,6 +231,7 @@ hr {
 	background-color: rgba(0,0,0,0.5) !important;
 	/* color: #6d2121; */
 	/* border-top-color: rgba(0,0,0,0.2); */
+	/* height: 100px !important; */
 }
 
 #footer .footer-widgets-wrap {
@@ -241,6 +242,15 @@ hr {
 #footer-contact {
 	font-size: 20px;
 	flex-wrap: nowrap;
+}
+
+/* 
+ h1 h2 {
+	font-size: 18px !important;
+} */
+
+h1 {
+	font-size: 20px !important;
 }
 
 
