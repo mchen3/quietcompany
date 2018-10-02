@@ -38,6 +38,10 @@ a.quiettabs:hover {
 }
 		
 
+.resume-padding{
+	max-width: 1200px;
+}
+
 
 
 #about-container {
@@ -138,12 +142,32 @@ a.quiettabs:hover {
 .dark #copyrights {
 	background-color: white !important;
 	color:black !important;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1) !important;
+	/* text-shadow: 1px 1px 1px rgba(0,0,0,0.1) !important; */
+	letter-spacing: 3px;
 }
 
 .footer-edit {
-	color: #a5a2a2;
+	color: #999;
 }
+
+
+/* footer hr line */
+.dark hr {
+	border-top-color: #ddd !important;
+}
+
+hr {
+	margin-top: 1rem !important;
+	margin-bottom: 1rem !important;
+	border: 0 !important;
+	border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+	width: 1000px !important;
+}
+
+/* .hr_line {
+	color: white;
+	background-color: white !important;
+} */
 
 
 /* Resume */
@@ -330,6 +354,22 @@ tr:nth-child(even) {background: #ececec}
 }
 
 
+
+#resume-footer h2 {
+	font-size: 20px;
+	color: black; 
+	margin-left: 50px !important;
+}
+
+#resume-footer  {
+	 
+	margin-left: 79px !important;
+
+}
+
+
+
+
 @media (min-width: 1024px) {
 	#slider h2 { 
 		font-size: 111px; 
@@ -366,16 +406,10 @@ tr:nth-child(even) {background: #ececec}
 	} 
 
 	
+	
 
 
 	
-	  style {
-    /* background-image: url(./quietcompany/images/page/tony-ipad-pro.jpg) !important;
-    background-size: cover;
-    background-position: center center; */
-    /* height: 666px;
-    width: 414px; */
-	 }
 	 
 }
 

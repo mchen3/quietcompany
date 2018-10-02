@@ -15,11 +15,41 @@
 	
 	min-width: 100%; 
 	min-height: 100%;
-
-              
-
-
+ z-index: -999;;
+          
 }
+
+
+/* footer hr line */
+.dark hr {
+	border-top-color: #ddd !important;
+}
+
+hr {
+	margin-top: 1rem !important;
+	margin-bottom: 1rem !important;
+	border: 0 !important;
+	border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+	width: 800px !important;
+}
+
+.footer-edit {
+	color: white;
+}
+
+#copyrights {
+	/* padding: 40px 0;
+	font-size: 14px;
+	line-height: 1.8; */
+	background-color: transparent !important;
+	letter-spacing: 3px;
+	text-align: center;
+}
+#footer_name {
+	color: aquamarine;
+}
+
+
 
 /* Add some content at the bottom of the video/page */
 .content {
@@ -104,7 +134,7 @@ hr {
 	/* word-spacing: 3px; */
 	letter-spacing: 2px;
 	line-height: 30px;
-	font-weight: 400; 
+	font-weight: 200; 
 
 	/* font-family: Arial, Helvetica, sans-serif */
 
@@ -155,7 +185,7 @@ hr {
 
 #portfolio {
 	/* padding-top: -10px; */
-	margin-left: 50px;
+	margin-left: -20px;
 	margin-top: 50px;
 }
 
@@ -166,7 +196,7 @@ hr {
 
 #portfolio h4 {
 	margin-top: -15px;
-	font-size: 26px;
+	font-size: 20px;
 	letter-spacing: 3px;
 }
 
