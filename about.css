@@ -42,7 +42,7 @@ hr {
 	font-size: 14px;
 	line-height: 1.8; */
 	background-color: transparent !important;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	text-align: center;
 }
 #footer_name {
@@ -132,7 +132,7 @@ hr {
 	/* font-family: 'Roboto', sans-serif; */
 	font-family: 'Raleway', sans-serif;
 	/* word-spacing: 3px; */
-	letter-spacing: 2px;
+	letter-spacing: 1.2px;
 	line-height: 30px;
 	font-weight: 200; 
 
@@ -299,7 +299,7 @@ h1 {
 @media (min-width: 1601px) and (max-width: 1800px) {
 
 	.container { 
-		max-width: 1500px !important; 
+		max-width: 1100px !important; 
 	}
 
 }
@@ -308,7 +308,7 @@ h1 {
 @media (min-width: 1400px) and (max-width: 1600px) {
 	
 	.container { 
-		max-width: 1300px !important; 	
+		max-width: 1050px !important; 	
 	}
 	
 }
@@ -329,10 +329,6 @@ h1 {
 	.container { 
 		
 		max-width: 900px  !important; 
-	
-
-		
-
 	
 	}
 
